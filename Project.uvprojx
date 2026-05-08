@@ -190,7 +190,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Start;.\User;.\Library\inc;.\Library\src</IncludePath>
+              <IncludePath>.\Start;.\User;.\Library\inc;.\Library\src;.\Hardware</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -673,6 +673,51 @@
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Library\src\stm32f10x_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>my_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\my_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\my_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>my_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\my_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\my_usart.h</FilePath>
+            </File>
+            <File>
+              <FileName>dht11.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\dht11.c</FilePath>
+            </File>
+            <File>
+              <FileName>dht11.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\dht11.h</FilePath>
             </File>
           </Files>
         </Group>
